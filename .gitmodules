@@ -1,0 +1,6 @@
+[submodule "meta"]
+	path = meta
+	url = git://github.com/amylum/pkgforge-helper
+[submodule "upstream"]
+	path = upstream
+	url = https://git.gnome.org/browse/gtk-doc

@@ -1,0 +1,15 @@
+name 'gtk-doc'
+org 'amylum'
+
+licenses 'COPYING'
+
+harden
+
+build do
+  make
+  install 'PREFIX' => '/usr'
+end
+
+test do
+  # TODO: add tests
+end
