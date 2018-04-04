@@ -3,11 +3,17 @@ org 'amylum'
 
 licenses 'COPYING'
 
+configure_flags(
+  prefix: '/usr'
+)
+
 harden
 
 build do
+  run './autogen.sh', 'NOCONFIGURE' => '1'
+  configure
   make
-  install 'PREFIX' => '/usr'
+  install
 end
 
 test do
