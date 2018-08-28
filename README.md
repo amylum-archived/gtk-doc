@@ -1,7 +1,7 @@
 gtk-doc
 ==========
 
-[![Build Status](https://img.shields.io/circleci/project/amylum/gtk-doc/master.svg)](https://circleci.com/gh/amylum/gtk-doc)
+[![Build Status](https://img.shields.io/travis/com/amylum/gtk-doc.svg)](https://travis-ci.com/amylum/gtk-doc)
 [![GitHub release](https://img.shields.io/github/release/amylum/gtk-doc.svg)](https://github.com/amylum/gtk-doc/releases)
 [![GPLv2 Licensed](https://img.shields.io/badge/license-GPLv2-green.svg)](https://tldrlegal.com/license/gnu-general-public-license-v2<Paste>)
 
